@@ -42,7 +42,7 @@ public class WeatherServlet extends HttpServlet {
             try {
 
                 String apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" +
-                        city + "&units=metric&APPID=" + API_KEY;
+                        city + "&APPID=" + API_KEY;
 
 
                 URL url = new URL(apiUrl);
